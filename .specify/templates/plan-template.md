@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+The following gates MUST be documented and satisfied:
+
+- Spec-first: Link to spec with prioritized user stories and success criteria
+- Test discipline: Declare whether tests are requested and plan Red-Green-Refactor
+- Security & authorization: Describe enforcement at pages/services and IDOR prevention
+- Offline-first abstraction: Identify interface boundaries and DI swap points
+- Simplicity review: Note dependencies and justify complexity if any
 
 ## Project Structure
 

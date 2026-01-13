@@ -90,6 +90,11 @@
 - **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
 - **FR-005**: System MUST [behavior, e.g., "log all security events"]
 
+**Security & Authorization (if feature touches protected data)**
+- **SEC-001**: Authorization MUST be enforced at page and service layers
+- **SEC-002**: Sensitive operations MUST be gated by role checks
+- **SEC-003**: Designs MUST prevent IDOR by validating ownership/membership
+
 *Example of marking unclear requirements:*
 
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
